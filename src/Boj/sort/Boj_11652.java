@@ -29,9 +29,7 @@ public class Boj_11652 {
         }
 
         Arrays.sort(arr);
-//        for(int i=0; i<N; i++){
-//            System.out.println(arr[i].n);
-//        }
+
 
         int max =0; int cnt =0; int ans =0;
         for(int i=0; i<N-1; i++){
